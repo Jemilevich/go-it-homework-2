@@ -1,6 +1,7 @@
 :root {
   --main-title-color: #fff;
   --second-title-color: #212121;
+  --third-title-color: #2196f3;
 }
 
 body {
@@ -13,12 +14,28 @@ ul {
 link {
   text-decoration: none;
 }
+.header-item {
+  list-style: none;
+}
+.email {
+  color: var(--third-title-color);
+}
+.studio-name {
+  color: var(--third-title-color);
+}
+.studio {
+  color: var(--third-title-color);
+}
+
+.our-tell {
+  color: #757575;
+}
+
 .about-our-decisions {
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-
   background: #2f303a;
 }
 
@@ -30,7 +47,7 @@ link {
   color: #ffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36em;
+  line-height: 1.36em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -51,20 +68,12 @@ link {
 }
 
 .article-about-us-1 {
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .article-about-us-2 {
-  width: 270px;
-  height: 16px;
-  left: 515px;
-  top: 774px;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
@@ -74,10 +83,6 @@ link {
 }
 
 .article-about-us-3 {
-  width: 270px;
-  height: 16px;
-  left: 815px;
-  top: 774px;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
@@ -87,10 +92,6 @@ link {
 }
 
 .article-about-us-4 {
-  width: 270px;
-  height: 16px;
-  left: 1115px;
-  top: 774px;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
@@ -142,10 +143,6 @@ link {
 }
 
 .our-possibilities {
-  width: 376px;
-  height: 42px;
-  left: 612px;
-  top: 969px;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -236,11 +233,14 @@ link {
   background: url(2968.jpg);
   border-radius: 0px;
 }
+.our-team-profesionals {
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
+}
+
 .our-team-profesionals-1 {
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -248,10 +248,6 @@ link {
   color: #212121;
 }
 .our-team-profesionals-2 {
-  width: 109px;
-  height: 19px;
-  left: 596px;
-  top: 1925px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -259,10 +255,6 @@ link {
   color: #212121;
 }
 .our-team-profesionals-3 {
-  width: 137px;
-  height: 19px;
-  left: 882px;
-  top: 1925px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -270,10 +262,6 @@ link {
   color: #212121;
 }
 .our-team-profesionals-4 {
-  width: 134px;
-  height: 19px;
-  left: 1183px;
-  top: 1925px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -281,10 +269,6 @@ link {
   color: #212121;
 }
 .our-team-profesionals-position-1 {
-  width: 130px;
-  height: 19px;
-  left: 285px;
-  top: 1954px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -292,10 +276,6 @@ link {
   color: #757575;
 }
 .our-team-profesionals-position-2 {
-  width: 147px;
-  height: 19px;
-  left: 577px;
-  top: 1954px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -303,10 +283,6 @@ link {
   color: #757575;
 }
 .our-team-profesionals-position-3 {
-  width: 76px;
-  height: 19px;
-  left: 912px;
-  top: 1954px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -314,10 +290,6 @@ link {
   color: #757575;
 }
 .our-team-profesionals-position-4 {
-  width: 87px;
-  height: 19px;
-  left: 1207px;
-  top: 1954px;
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
@@ -370,4 +342,11 @@ link {
   line-height: 1.71em;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.our-contacts-footer {
+  color: #ffffff 60%;
+}
+.studio-name-1 {
+  color: var(--main-title-color);
 }
